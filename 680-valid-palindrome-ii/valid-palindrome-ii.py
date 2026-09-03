@@ -15,7 +15,7 @@ class Solution:
             right = s[j]
 
             if left != right:
-                # deleting at most one character from it.
+                # deleting at most one character from it
                   return (
                     self.isPalindrome(s,i + 1, j) or
                     self.isPalindrome(s, i, j - 1)
