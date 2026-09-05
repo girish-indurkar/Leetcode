@@ -11,3 +11,6 @@ class Solution:
             else:
                 j -= 1
         return count
+
+        ## tc = o(nlogn)
+        ## sc = o(logn)
