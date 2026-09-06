@@ -9,3 +9,5 @@ class Solution:
                  i += 1
             else:
                 return [i + 1, j+1]       
+
+#tc = o(n) sc = o(1)
