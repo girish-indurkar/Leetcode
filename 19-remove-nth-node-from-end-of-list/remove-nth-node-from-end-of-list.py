@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:
-        # Find length of the list
+        
         length = 0
         curr = head
 
