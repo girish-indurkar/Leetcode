@@ -13,19 +13,13 @@ class Solution:
             length += 1
             curr = curr.next
 
-        # Position of node to remove from the beginning (1-indexed)
         pos = length - n + 1
 
-        # If removing the head
         if pos == 1:
             return head.next
-
-        # Move to the node before the one we want to remove
         curr = head
         for _ in range(pos - 2):
             curr = curr.next
-
-        # Remove the node
         curr.next = curr.next.next
 
         return head
