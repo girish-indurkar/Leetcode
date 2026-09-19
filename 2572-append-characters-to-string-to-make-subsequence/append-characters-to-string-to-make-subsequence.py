@@ -8,3 +8,5 @@ class Solution:
 
             i += 1
         return len(t) - j
+
+        #tc = o(m+n)
