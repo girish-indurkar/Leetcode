@@ -16,3 +16,4 @@ class Solution:
             ans = ans + word + " "
 
         return ans.strip()
+        #o(n) tc
