@@ -12,3 +12,6 @@ class Solution:
                 j+=1
                 k+=1
         return k
+
+        # tc = O(n)
+        # SC = O(1)
