@@ -26,4 +26,4 @@ class Solution:
                     right-=1
         return res
 
-        TC = O(n^2)
+       # TC = O(n^2)
