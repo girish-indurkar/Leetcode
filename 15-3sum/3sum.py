@@ -25,3 +25,5 @@ class Solution:
                 else:
                     right-=1
         return res
+
+        TC = O(n^2)
